@@ -266,30 +266,30 @@ VITE_appId=your_app_id
 
 <div>
 <pre>
-User lands on Home ──► Browses Book Categories ──► Selects a Category
-                                                        │
-                                ┌───────────────────────┘
-                                ▼
-                      Route requires auth?
-                       ┌──── Yes ────┐
-                       ▼             ▼
-                  Not logged in   Logged in
-                       │             │
-                       ▼             ▼
-                  Redirect to    View Category
-                  Login Page     Book Listings
-                       │             │
-                       ▼             ▼
-                  Authenticate   Select a Book
-                  (Email/Google) (View Details)
-                       │             │
-                       ▼             ▼
-                  Return to ────► Borrow Book
-                  Category Page   (Set Return Date)
-                                     │
-                                     ▼
-                               Manage Dashboard
-                            (Borrowed Books + Returns)
+               User lands on Home ──► Browses Book Categories ──► Selects a Category
+                                                                       │
+                                               ┌───────────────────────┘
+                                               ▼
+                                     Route requires auth?
+                                      ┌──── Yes ────┐
+                                      ▼             ▼
+                                 Not logged in   Logged in
+                                      │             │
+                                      ▼             ▼
+                                 Redirect to    View Category
+                                 Login Page     Book Listings
+                                      │             │
+                                      ▼             ▼
+                                 Authenticate   Select a Book
+                                 (Email/Google) (View Details)
+                                      │             │
+                                      ▼             ▼
+                                 Return to ────► Borrow Book
+                                 Category Page   (Set Return Date)
+                                                    │
+                                                    ▼
+                                              Manage Dashboard
+                                           (Borrowed Books + Returns)
 </pre>
 </div>
 
