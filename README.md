@@ -1,12 +1,11 @@
 <div align="center">
-
-<img src="https://trackbook-official.vercel.app/assets/favicon.png" alt="TrackBook Logo" width="50" />
+<img src="https://trackbook-official.vercel.app/assets/favicon.png" alt="TrackBook Logo" />
 
 # TrackBook - Book Management System
 
-A modern, full-stack web application for seamless book browsing, borrowing, and library management — designed to make every reading journey organized, delightful, and effortless.
+A modern, full-stack web application for seamless book browsing, borrowing, and library management, designed to make every reading journey organized, delightful, and effortless.
 
-[![Live Demo](https://img.shields.io/badge/▶_Live_Demo-trackbook--official.vercel.app-00C853?style=for-the-badge&logo=vercel&logoColor=white)](https://trackbook-official.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/▶_Live_Demo-trackbook--official.vercel.app-0C8DCE?style=for-the-badge&logo=vercel&logoColor=white)](https://trackbook-official.vercel.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zahid-official/milestone-11-client)
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
@@ -23,7 +22,7 @@ A modern, full-stack web application for seamless book browsing, borrowing, and 
 
 ## 🔍 Overview
 
-**TrackBook** is a comprehensive library management system that brings clarity and convenience to every reader's experience. Users can browse categorized book collections, view detailed information, borrow and return books, and manage their reading activity — all backed by Firebase authentication, JWT-secured endpoints, and a RESTful backend API.
+**TrackBook** is a comprehensive library management system that brings clarity and convenience to every reader's experience. Users can browse categorized book collections, view detailed information, borrow and return books, and manage their reading activity, all backed by Firebase authentication, JWT-secured endpoints, and a RESTful backend API.
 
 > _Where every reading journey is just a page away._
 
@@ -122,11 +121,11 @@ A modern, full-stack web application for seamless book browsing, borrowing, and 
 │  │   Footer) │  │  (Public +   │  │                      │  │
 │  │           │  │   Private)   │  │  • Login / Register  │  │
 │  └───────────┘  └──────┬───────┘  │  • Google OAuth      │  │
-│                        │          │  • JWT Tokens         │  │
+│                        │          │  • JWT Tokens        │  │
 │               ┌────────▼────────┐ └──────────────────────┘  │
 │               │     Pages       │                           │
 │               │  Home │AllBooks │                           │
-│               │  AddBook│Update│                           │
+│               │  AddBook│Update │                           │
 │               │  BorrowedBooks  │                           │
 │               │  BookDetails    │                           │
 │               │  Category       │                           │
@@ -265,7 +264,7 @@ VITE_appId=your_app_id
 
 ## ⚙️ How It Works
 
-<div align="center">
+<div>
 <pre>
 User lands on Home ──► Browses Book Categories ──► Selects a Category
                                                         │
@@ -294,11 +293,11 @@ User lands on Home ──► Browses Book Categories ──► Selects a Categor
 </pre>
 </div>
 
-1. **Landing** — Users explore the platform overview, featured books, category cards, inspirational quotes, and reading stories on the home page.
-2. **Category Browsing** — Selecting a category loads all books in that genre dynamically from the backend API.
-3. **Authenticated Access** — Viewing book details or borrowing triggers a private route; unauthenticated users are redirected to sign in.
-4. **Book Details & Borrowing** — Users can view complete book information, ratings, and borrow books with a specified return date.
-5. **Dashboard Management** — Users can add new books, update existing entries, and manage their borrowed books from dedicated dashboard pages.
+1. **Landing**: Users explore the platform overview, featured books, category cards, inspirational quotes, and reading stories on the home page.
+2. **Category Browsing**: Selecting a category loads all books in that genre dynamically from the backend API.
+3. **Authenticated Access**: Viewing book details or borrowing triggers a private route; unauthenticated users are redirected to sign in.
+4. **Book Details & Borrowing**: Users can view complete book information, ratings, and borrow books with a specified return date.
+5. **Dashboard Management**: Users can add new books, update existing entries, and manage their borrowed books from dedicated dashboard pages.
 
 <br/>
 
@@ -316,7 +315,7 @@ User lands on Home ──► Browses Book Categories ──► Selects a Categor
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zahid-web)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zahid.official8@gmail.com)
 
-  <p>Creating impactful digital experiences with passion and purposeful design</p>
+  <p>Building exceptional digital experiences through code and creative design</p>
 </div>
 
 <br/>
@@ -340,4 +339,4 @@ git push origin feature/your-feature-name
 # 5. Open a Pull Request against the main branch
 ```
 
-<p align="center"><b>TrackBook</b> <i>— Where every reading journey is just a page away.</i></p>
+<p align="center"><b>TrackBook</b> <i> - Where every reading journey is just a page away.</i></p>
